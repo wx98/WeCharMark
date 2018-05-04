@@ -1,0 +1,27 @@
+C:\Users\sy\Desktop\WeCharMark\MarkDAL\obj\Debug\MarkDAL.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\WeCharMark\MarkDAL\obj\Debug\MarkDAL.dll
+C:\Users\sy\Desktop\WeCharMark\MarkDAL\obj\Debug\MarkDAL.pdb
+C:\Users\sy\Desktop\WeCharMark\MarkDAL\bin\Debug\MarkDAL.dll
+C:\Users\sy\Desktop\WeCharMark\MarkDAL\bin\Debug\MarkDAL.pdb
+C:\Users\sy\Desktop\WeCharMark\MarkDAL\bin\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark\MarkDAL\bin\Debug\MarkModel.pdb
+D:\Visual Studio 2012\WeCharMark\MarkDAL\bin\Debug\MarkDAL.dll
+D:\Visual Studio 2012\WeCharMark\MarkDAL\bin\Debug\MarkDAL.pdb
+D:\Visual Studio 2012\WeCharMark\MarkDAL\bin\Debug\MarkModel.dll
+D:\Visual Studio 2012\WeCharMark\MarkDAL\bin\Debug\MarkModel.pdb
+D:\Visual Studio 2012\WeCharMark\MarkDAL\obj\Debug\MarkDAL.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\WeCharMark\MarkDAL\obj\Debug\MarkDAL.dll
+D:\Visual Studio 2012\WeCharMark\MarkDAL\obj\Debug\MarkDAL.pdb
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkDAL\bin\Debug\MarkDAL.dll
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkDAL\bin\Debug\MarkDAL.pdb
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkDAL\bin\Debug\MarkModel.dll
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkDAL\bin\Debug\MarkModel.pdb
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkDAL\obj\Debug\MarkDAL.dll
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkDAL\obj\Debug\MarkDAL.pdb
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkDAL\obj\Debug\MarkDAL.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\·NetWeb_work_05_03_wx\WeCharMark\MarkDAL\bin\Debug\MarkDAL.dll
+D:\Visual Studio 2012\·NetWeb_work_05_03_wx\WeCharMark\MarkDAL\bin\Debug\MarkDAL.pdb
+D:\Visual Studio 2012\·NetWeb_work_05_03_wx\WeCharMark\MarkDAL\bin\Debug\MarkModel.dll
+D:\Visual Studio 2012\·NetWeb_work_05_03_wx\WeCharMark\MarkDAL\bin\Debug\MarkModel.pdb
+D:\Visual Studio 2012\·NetWeb_work_05_03_wx\WeCharMark\MarkDAL\obj\Debug\MarkDAL.dll
+D:\Visual Studio 2012\·NetWeb_work_05_03_wx\WeCharMark\MarkDAL\obj\Debug\MarkDAL.pdb

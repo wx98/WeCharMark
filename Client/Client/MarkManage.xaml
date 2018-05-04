@@ -1,0 +1,44 @@
+﻿<Window x:Class="Client.MarkManage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="成绩管理" Height="300" Width="550" Loaded="mainWimdow_Loaded" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center">
+            <TextBlock Text="课程" VerticalAlignment="Center" />
+            <ComboBox x:Name="cbSubject" Width="150" VerticalAlignment="Center" SelectionChanged="cbSubject_SelectionChanged" SelectedIndex="0" />
+        </StackPanel>
+        <DataGrid x:Name="mGrid" Grid.Row="1" AutoGenerateColumns="False" 
+                  SelectionMode="Single" CanUserDeleteRows="False" 
+                  CanUserAddRows="False" SelectionUnit="Cell"  SelectionChanged="mGrid_SelectionChanged" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding sNo}" Header="学号" Width="50" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding sName}" Header="姓名" Width="100" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding sSubject}" Header="课程" Width="100" IsReadOnly="True"/>
+                <DataGridTemplateColumn x:Name="markColumn" Header="成绩" Width="100" IsReadOnly="False">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding mMark}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox  x:Name="txtMark" Text="{Binding mMark,Mode=TwoWay}"
+                                      PreviewKeyDown="txtMark_PreviewKeyDown" MaxLength="3"
+                                      TextChanged="txtMark_TextChanged">
+                            </TextBox>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center">
+            <Button x:Name="btUpdate" Content="提交成绩" Margin="10,0,0,0" Width="50" Click="btUpdate_Click" Height="30" />
+            <Button x:Name="btAdd" Content="批量导入"    Margin="10,0,0,0" Width="50" Click="btAdd_Click" Height="30" />
+        </StackPanel>
+    </Grid>
+</Window>
