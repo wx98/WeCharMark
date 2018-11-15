@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getSubjectDataTable">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSubjectDataTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubjectDataTableResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateSubject">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="s" type="tns:SubjectClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SubjectClass">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="sID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="sSubject" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="updateSubjectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateSubjectResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addSubject">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="s" type="tns:SubjectClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addSubjectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="addSubjectResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteSubject">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="s" type="tns:SubjectClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteSubjectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deleteSubjectResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getStudentDataTable">
+        <s:complexType />
+      </s:element>
+      <s:element name="getStudentDataTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getStudentDataTableResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateStudent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="s" type="tns:StudentClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="StudentClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="sNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="updateStudentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateStudentResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addStudent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="s" type="tns:StudentClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addStudentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="addStudentResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteStudent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="s" type="tns:StudentClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteStudentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deleteStudentResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="get_login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="s" type="tns:StudentClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="get_loginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="get_loginResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMarkDataTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="sID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMarkDataTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMarkDataTableResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateMarkList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="marks" type="tns:ArrayOfMarkClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMarkClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="MarkClass" nillable="true" type="tns:MarkClass" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MarkClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="sNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="sID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="mMark" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="updateMarkListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateMarkListResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getSubjectDataTableSoapIn">
+    <wsdl:part name="parameters" element="tns:getSubjectDataTable" />
+  </wsdl:message>
+  <wsdl:message name="getSubjectDataTableSoapOut">
+    <wsdl:part name="parameters" element="tns:getSubjectDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateSubjectSoapIn">
+    <wsdl:part name="parameters" element="tns:updateSubject" />
+  </wsdl:message>
+  <wsdl:message name="updateSubjectSoapOut">
+    <wsdl:part name="parameters" element="tns:updateSubjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="addSubjectSoapIn">
+    <wsdl:part name="parameters" element="tns:addSubject" />
+  </wsdl:message>
+  <wsdl:message name="addSubjectSoapOut">
+    <wsdl:part name="parameters" element="tns:addSubjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubjectSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteSubject" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubjectSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteSubjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="getStudentDataTableSoapIn">
+    <wsdl:part name="parameters" element="tns:getStudentDataTable" />
+  </wsdl:message>
+  <wsdl:message name="getStudentDataTableSoapOut">
+    <wsdl:part name="parameters" element="tns:getStudentDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateStudentSoapIn">
+    <wsdl:part name="parameters" element="tns:updateStudent" />
+  </wsdl:message>
+  <wsdl:message name="updateStudentSoapOut">
+    <wsdl:part name="parameters" element="tns:updateStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="addStudentSoapIn">
+    <wsdl:part name="parameters" element="tns:addStudent" />
+  </wsdl:message>
+  <wsdl:message name="addStudentSoapOut">
+    <wsdl:part name="parameters" element="tns:addStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteStudentSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteStudent" />
+  </wsdl:message>
+  <wsdl:message name="deleteStudentSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="get_loginSoapIn">
+    <wsdl:part name="parameters" element="tns:get_login" />
+  </wsdl:message>
+  <wsdl:message name="get_loginSoapOut">
+    <wsdl:part name="parameters" element="tns:get_loginResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMarkDataTableSoapIn">
+    <wsdl:part name="parameters" element="tns:getMarkDataTable" />
+  </wsdl:message>
+  <wsdl:message name="getMarkDataTableSoapOut">
+    <wsdl:part name="parameters" element="tns:getMarkDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateMarkListSoapIn">
+    <wsdl:part name="parameters" element="tns:updateMarkList" />
+  </wsdl:message>
+  <wsdl:message name="updateMarkListSoapOut">
+    <wsdl:part name="parameters" element="tns:updateMarkListResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MarkServiceSoap">
+    <wsdl:operation name="getSubjectDataTable">
+      <wsdl:input message="tns:getSubjectDataTableSoapIn" />
+      <wsdl:output message="tns:getSubjectDataTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateSubject">
+      <wsdl:input message="tns:updateSubjectSoapIn" />
+      <wsdl:output message="tns:updateSubjectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addSubject">
+      <wsdl:input message="tns:addSubjectSoapIn" />
+      <wsdl:output message="tns:addSubjectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubject">
+      <wsdl:input message="tns:deleteSubjectSoapIn" />
+      <wsdl:output message="tns:deleteSubjectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentDataTable">
+      <wsdl:input message="tns:getStudentDataTableSoapIn" />
+      <wsdl:output message="tns:getStudentDataTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateStudent">
+      <wsdl:input message="tns:updateStudentSoapIn" />
+      <wsdl:output message="tns:updateStudentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addStudent">
+      <wsdl:input message="tns:addStudentSoapIn" />
+      <wsdl:output message="tns:addStudentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteStudent">
+      <wsdl:input message="tns:deleteStudentSoapIn" />
+      <wsdl:output message="tns:deleteStudentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="get_login">
+      <wsdl:input message="tns:get_loginSoapIn" />
+      <wsdl:output message="tns:get_loginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMarkDataTable">
+      <wsdl:input message="tns:getMarkDataTableSoapIn" />
+      <wsdl:output message="tns:getMarkDataTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateMarkList">
+      <wsdl:input message="tns:updateMarkListSoapIn" />
+      <wsdl:output message="tns:updateMarkListSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MarkServiceSoap" type="tns:MarkServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getSubjectDataTable">
+      <soap:operation soapAction="http://tempuri.org/getSubjectDataTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateSubject">
+      <soap:operation soapAction="http://tempuri.org/updateSubject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addSubject">
+      <soap:operation soapAction="http://tempuri.org/addSubject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubject">
+      <soap:operation soapAction="http://tempuri.org/deleteSubject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentDataTable">
+      <soap:operation soapAction="http://tempuri.org/getStudentDataTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateStudent">
+      <soap:operation soapAction="http://tempuri.org/updateStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addStudent">
+      <soap:operation soapAction="http://tempuri.org/addStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteStudent">
+      <soap:operation soapAction="http://tempuri.org/deleteStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="get_login">
+      <soap:operation soapAction="http://tempuri.org/get_login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMarkDataTable">
+      <soap:operation soapAction="http://tempuri.org/getMarkDataTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateMarkList">
+      <soap:operation soapAction="http://tempuri.org/updateMarkList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MarkServiceSoap12" type="tns:MarkServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getSubjectDataTable">
+      <soap12:operation soapAction="http://tempuri.org/getSubjectDataTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateSubject">
+      <soap12:operation soapAction="http://tempuri.org/updateSubject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addSubject">
+      <soap12:operation soapAction="http://tempuri.org/addSubject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubject">
+      <soap12:operation soapAction="http://tempuri.org/deleteSubject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentDataTable">
+      <soap12:operation soapAction="http://tempuri.org/getStudentDataTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateStudent">
+      <soap12:operation soapAction="http://tempuri.org/updateStudent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addStudent">
+      <soap12:operation soapAction="http://tempuri.org/addStudent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteStudent">
+      <soap12:operation soapAction="http://tempuri.org/deleteStudent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="get_login">
+      <soap12:operation soapAction="http://tempuri.org/get_login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMarkDataTable">
+      <soap12:operation soapAction="http://tempuri.org/getMarkDataTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateMarkList">
+      <soap12:operation soapAction="http://tempuri.org/updateMarkList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MarkService">
+    <wsdl:port name="MarkServiceSoap" binding="tns:MarkServiceSoap">
+      <soap:address location="http://39.106.36.39:8089/MarkService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MarkServiceSoap12" binding="tns:MarkServiceSoap12">
+      <soap12:address location="http://39.106.36.39:8089/MarkService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

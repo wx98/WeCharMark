@@ -19,11 +19,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:41936/MarkService.asmx" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://39.106.36.39:8089/MarkService.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="MarkService1.wsdl" MetadataType="Wsdl" ID="b8d881f1-30aa-467f-87d1-b13405421748" SourceId="1" SourceUrl="http://localhost:41936/MarkService.asmx?wsdl" />
-    <MetadataFile FileName="MarkService1.disco" MetadataType="Disco" ID="18c1c6c5-86aa-4638-baad-4ac05b46acf0" SourceId="1" SourceUrl="http://localhost:41936/MarkService.asmx?disco" />
+    <MetadataFile FileName="MarkService.wsdl" MetadataType="Wsdl" ID="2c42acd3-6c1e-4406-a45a-f7e16cb2f2ab" SourceId="1" SourceUrl="http://39.106.36.39:8089/MarkService.asmx?wsdl" />
+    <MetadataFile FileName="MarkService.disco" MetadataType="Disco" ID="2ab9a077-86ff-473b-ae5b-de7b71bbfbe4" SourceId="1" SourceUrl="http://39.106.36.39:8089/MarkService.asmx?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -61,3 +61,24 @@ D:\Visual Studio 2012\·NetWeb_work_05_03_wx\WeCharMark\Client\Client\obj\Debug\
 D:\Visual Studio 2012\·NetWeb_work_05_03_wx\WeCharMark\Client\Client\obj\Debug\Client.g.resources
 D:\Visual Studio 2012\·NetWeb_work_05_03_wx\WeCharMark\Client\Client\obj\Debug\Client.Properties.Resources.resources
 D:\Visual Studio 2012\·NetWeb_work_05_03_wx\WeCharMark\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\bin\Debug\Client.exe.config
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Client.exe
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Client.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\bin\Debug\Client.exe
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\bin\Debug\Client.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\MainWindow.baml
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\MarkManage.baml
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Option.baml
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\StudentManage.baml
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\SubjectManage.baml
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\MainWindow.g.cs
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\MarkManage.g.cs
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Option.g.cs
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\StudentManage.g.cs
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\SubjectManage.g.cs
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\App.g.cs
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Client_MarkupCompile.cache
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Client.g.resources
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache

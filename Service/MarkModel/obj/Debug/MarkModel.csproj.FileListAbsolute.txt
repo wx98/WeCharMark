@@ -1,0 +1,27 @@
+C:\Users\sy\Desktop\WeCharMark\MarkModel\bin\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark\MarkModel\bin\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark\MarkModel\obj\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark\MarkModel\obj\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark\MarkModel\obj\Debug\MarkModel.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\WeCharMark\MarkModel\bin\Debug\MarkModel.dll
+D:\Visual Studio 2012\WeCharMark\MarkModel\bin\Debug\MarkModel.pdb
+D:\Visual Studio 2012\WeCharMark\MarkModel\obj\Debug\MarkModel.dll
+D:\Visual Studio 2012\WeCharMark\MarkModel\obj\Debug\MarkModel.pdb
+D:\Visual Studio 2012\WeCharMark\MarkModel\obj\Debug\MarkModel.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkModel\bin\Debug\MarkModel.dll
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkModel\bin\Debug\MarkModel.pdb
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkModel\obj\Debug\MarkModel.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkModel\obj\Debug\MarkModel.dll
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkModel\obj\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark-master\MarkModel\bin\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark-master\MarkModel\bin\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark-master\MarkModel\obj\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark-master\MarkModel\obj\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkModel\bin\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkModel\bin\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkModel\obj\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkModel\obj\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkModel\bin\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkModel\bin\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkModel\obj\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkModel\obj\Debug\MarkModel.pdb

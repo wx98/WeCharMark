@@ -1,0 +1,48 @@
+C:\Users\sy\Desktop\WeCharMark\MarkBLL\bin\Debug\MarkBLL.dll
+C:\Users\sy\Desktop\WeCharMark\MarkBLL\bin\Debug\MarkBLL.pdb
+C:\Users\sy\Desktop\WeCharMark\MarkBLL\bin\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark\MarkBLL\bin\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark\MarkBLL\obj\Debug\MarkBLL.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\WeCharMark\MarkBLL\obj\Debug\MarkBLL.dll
+C:\Users\sy\Desktop\WeCharMark\MarkBLL\obj\Debug\MarkBLL.pdb
+D:\Visual Studio 2012\WeCharMark\MarkBLL\bin\Debug\MarkBLL.dll
+D:\Visual Studio 2012\WeCharMark\MarkBLL\bin\Debug\MarkBLL.pdb
+D:\Visual Studio 2012\WeCharMark\MarkBLL\bin\Debug\MarkModel.dll
+D:\Visual Studio 2012\WeCharMark\MarkBLL\bin\Debug\MarkModel.pdb
+D:\Visual Studio 2012\WeCharMark\MarkBLL\obj\Debug\MarkBLL.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\WeCharMark\MarkBLL\obj\Debug\MarkBLL.dll
+D:\Visual Studio 2012\WeCharMark\MarkBLL\obj\Debug\MarkBLL.pdb
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkBLL\bin\Debug\MarkBLL.dll
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkBLL\bin\Debug\MarkBLL.pdb
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkBLL\bin\Debug\MarkModel.dll
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkBLL\bin\Debug\MarkModel.pdb
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkBLL\obj\Debug\MarkBLL.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkBLL\obj\Debug\MarkBLL.dll
+D:\Visual Studio 2012\·NetWeb_work_04_28_wx\WeCharMark\MarkBLL\obj\Debug\MarkBLL.pdb
+C:\Users\sy\Desktop\WeCharMark-master\MarkBLL\obj\Debug\MarkBLL.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\WeCharMark-master\MarkBLL\obj\Debug\MarkBLL.dll
+C:\Users\sy\Desktop\WeCharMark-master\MarkBLL\bin\Debug\MarkBLL.dll
+C:\Users\sy\Desktop\WeCharMark-master\MarkBLL\bin\Debug\MarkBLL.pdb
+C:\Users\sy\Desktop\WeCharMark-master\MarkBLL\bin\Debug\MarkDAL.dll
+C:\Users\sy\Desktop\WeCharMark-master\MarkBLL\bin\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark-master\MarkBLL\bin\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark-master\MarkBLL\bin\Debug\MarkDAL.pdb
+C:\Users\sy\Desktop\WeCharMark-master\MarkBLL\obj\Debug\MarkBLL.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkBLL\bin\Debug\MarkBLL.dll
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkBLL\bin\Debug\MarkBLL.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkBLL\bin\Debug\MarkDAL.dll
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkBLL\bin\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkBLL\bin\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkBLL\bin\Debug\MarkDAL.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkBLL\obj\Debug\MarkBLL.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkBLL\obj\Debug\MarkBLL.dll
+C:\Users\sy\Desktop\WeCharMark-master\Server\MarkBLL\obj\Debug\MarkBLL.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkBLL\bin\Debug\MarkBLL.dll
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkBLL\bin\Debug\MarkBLL.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkBLL\bin\Debug\MarkDAL.dll
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkBLL\bin\Debug\MarkModel.dll
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkBLL\bin\Debug\MarkModel.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkBLL\bin\Debug\MarkDAL.pdb
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkBLL\obj\Debug\MarkBLL.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkBLL\obj\Debug\MarkBLL.dll
+C:\Users\sy\Desktop\WeCharMark-master\Service\MarkBLL\obj\Debug\MarkBLL.pdb
