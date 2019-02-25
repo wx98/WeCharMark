@@ -82,3 +82,24 @@ C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Client.g.resources
 C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Client.Properties.Resources.resources
 C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
 C:\Users\sy\Desktop\WeCharMark-master\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\bin\Debug\Client.exe.config
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\Client.exe
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\Client.pdb
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\bin\Debug\Client.exe
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\bin\Debug\Client.pdb
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\MainWindow.baml
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\MarkManage.baml
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\Option.baml
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\StudentManage.baml
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\SubjectManage.baml
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\MainWindow.g.cs
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\MarkManage.g.cs
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\Option.g.cs
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\StudentManage.g.cs
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\SubjectManage.g.cs
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\App.g.cs
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\Client_MarkupCompile.cache
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\Client.g.resources
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\Client.Properties.Resources.resources
+D:\Engineering being done\GitHub\WeCharMark\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache

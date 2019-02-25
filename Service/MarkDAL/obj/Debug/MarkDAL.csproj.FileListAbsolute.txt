@@ -45,3 +45,10 @@ C:\Users\sy\Desktop\WeCharMark-master\Service\MarkDAL\bin\Debug\MarkModel.pdb
 C:\Users\sy\Desktop\WeCharMark-master\Service\MarkDAL\obj\Debug\MarkDAL.dll
 C:\Users\sy\Desktop\WeCharMark-master\Service\MarkDAL\obj\Debug\MarkDAL.pdb
 C:\Users\sy\Desktop\WeCharMark-master\Service\MarkDAL\obj\Debug\MarkDAL.csprojResolveAssemblyReference.cache
+D:\Engineering being done\GitHub\WeCharMark\Service\MarkDAL\bin\Debug\MarkDAL.dll
+D:\Engineering being done\GitHub\WeCharMark\Service\MarkDAL\bin\Debug\MarkDAL.pdb
+D:\Engineering being done\GitHub\WeCharMark\Service\MarkDAL\bin\Debug\MarkModel.dll
+D:\Engineering being done\GitHub\WeCharMark\Service\MarkDAL\bin\Debug\MarkModel.pdb
+D:\Engineering being done\GitHub\WeCharMark\Service\MarkDAL\obj\Debug\MarkDAL.csprojResolveAssemblyReference.cache
+D:\Engineering being done\GitHub\WeCharMark\Service\MarkDAL\obj\Debug\MarkDAL.dll
+D:\Engineering being done\GitHub\WeCharMark\Service\MarkDAL\obj\Debug\MarkDAL.pdb
